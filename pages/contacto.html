@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="Somos tu espacio de coworking donde podras desarrollar tu actividad con los mejores servicios y al mejor precio"> 
+    <meta name="description"
+        content="Somos tu espacio de coworking donde podras desarrollar tu actividad con los mejores servicios y al mejor precio">
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <meta name="keywords" content="Coworking, espacio, ideas, trabajo, contacto, comunicarse">
     <title>Contacto</title>
@@ -19,9 +20,7 @@
 </head>
 
 <body>
-
     <header class="backgroundHeader">
-
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <img class="logo" src='../imagen/logosinBG.png' alt='logo' width='175' height='100'>
@@ -56,46 +55,45 @@
                 </div>
             </div>
         </nav>
-
     </header>
+    <section class="fondoPrimario">
+        <h1>Contacto</h1>
+        <h2>Ingrese sus datos para que lo contactemos</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido">
+            <br>
+            <p>Hombre</p>
+            <input type="radio" name="genero" value="Hombre">
+            <p>Mujer</p>
+            <input type="radio" name="genero" value="Mujer">
+            <p>Indefinido</p>
+            <input type="radio" name="genero" value="indefinido">
+            <br>
+            <label for="email">Mail:</label>
+            <input type="email" name="email">
+            <br>
+            <p>Ingrese el motivo por el cual desea contactarse.</p>
+            <select name="continente">
+                <option value="problemas">Tengo un problema</option>
+                <option value="sugerencias">Tengo sugerencias</option>
+                <option value="sercliente">Quiero ser cliente</option>
+                <option value="formarparte">Quiero formar parte de PUNTO59</option>
+                <option value="otros">otros</option>
+            </select>
+
+            <p>Acepta los términos y condiciones.</p>
+            <input type="checkbox" name="acepta" value="1">
+            <br>
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Resetear información">
 
 
-    <h1>Contacto</h1>
-    <h2>Ingrese sus datos para que lo contactemos</h2>
-    <form action="#" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre">
-        <br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido">
-        <br>
-        <p>Hombre</p>
-        <input type="radio" name="genero" value="Hombre">
-        <p>Mujer</p>
-        <input type="radio" name="genero" value="Mujer">
-        <p>Indefinido</p>
-        <input type="radio" name="genero" value="indefinido">
-        <br>
-        <label for="email">Mail:</label>
-        <input type="email" name="email">
-        <br>
-        <p>Ingrese el motivo por el cual desea contactarse.</p>
-        <select name="continente">
-            <option value="problemas">Tengo un problema</option>
-            <option value="sugerencias">Tengo sugerencias</option>
-            <option value="sercliente">Quiero ser cliente</option>
-            <option value="formarparte">Quiero formar parte de PUNTO59</option>
-            <option value="otros">otros</option>
-        </select>
-
-        <p>Acepta los términos y condiciones.</p>
-        <input type="checkbox" name="acepta" value="1">
-        <br>
-        <input type="submit" value="Enviar formulario">
-        <input type="reset" value="Resetear información">
-
-
-    </form>
+        </form>
+    </section>
     <footer><img src='../imagen/banner59.057e29c6.png' width="100%" height="375px" style="border:0;" allowfullscreen=""
             loading="lazy"></footer>
 
